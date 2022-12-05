@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
 <title>Calculadora</title>
 <link type="text/css" href="Est.css" rel="stylesheet">
 <h1> Calculadora</h1>
 </head>
 
+<body onload="init();">
+  <table class="calculadora">
+
+  <tr>
+    <td colspan="4"><textarea id="resultado"></textarea></td>
+  </tr>
+  <tr>
+    <td colspan="2"><button class="rojo" id="R">Retr</button></td><td colspan="2"><button class="rojo" id="borrar">CE</button></td><td ><button class="rojo" id="reset">C</button></td>
+  </tr>
+  <tr>
+    <td><button id="siete">7</button></td><td><button id="ocho">8</button></td><td><button id="nueve">9</button></td><td><button id="division">/</button></td><td><button id="raiz">Raiz</button></td>
+  </tr>
+  <tr>
+    <td><button id="cuatro">4</button></td><td><button id="cinco">5</button></td><td><button id="seis">6</button></td><td><button id="multiplicacion">*</button></td><td><button id="porcentaje">%</button></td>
+  </tr>
+  <tr>
+    <td><button id="uno">1</button></td><td><button id="dos">2</button></td><td><button id="tres">3</button></td><td><button id="resta">-</button></td><td><button id="inverso">1/x</button></td>
+  </tr>
+  <tr>
+    <td><button id="cero">0</button></td><td><button id="mas menos">+/-</button></td><td><button id="punto">.</button></td><td><button id="suma">+</button></td><td><button id="igual">=</button></td>
+  </tr>
+  
+  </table>
+  <script src="JS.js"></script>
 </body>
 </html>
